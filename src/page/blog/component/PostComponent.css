@@ -1,0 +1,22 @@
+.blog-post{
+    display: flex;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.post-title{
+    font-size: 22px;
+    width: 800px;
+    margin-bottom: 30px;
+}
+.post-content{
+    width: 800px;
+    line-height: 30px;
+    color: #7e7d7d;
+}
+.post-img{
+    margin-left: 40px;
+}
+.post-write-date{
+    margin-top: 20px;
+    color: #7e7d7d;
+}

@@ -1,0 +1,126 @@
+.login-background-container{
+    user-select: none;
+}
+.login-background-container{
+    position: fixed; /* 또는 absolute */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ADC7A1; /* 여기서 배경 색상을 원하는 색으로 변경하세요 */
+    z-index: -1; /* 필요한 경우 다른 요소들 뒤에 위치하도록 설정 */
+}
+.login-container{
+    background-color: #F2EEDF;
+    border-radius: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 880px;
+    width: 1415px;
+    display: flex;
+    align-items: center;
+}
+.login-field-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 739px;
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 82px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login-img{
+    user-select: none;
+    pointer-events: none;
+    height: 536px;
+    width: 522px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 101px;
+}
+.input-field{
+    outline: none;
+    box-sizing: border-box;
+    padding: 17px 22px;
+    gap: 13px;
+    border: none;
+    box-shadow: 0 0 2px 1px #CCDDC5;
+    border-radius: 35px;
+    width: 449px;
+    height: 60px;
+    transition-property: box-shadow, border;
+    transition-duration: 0.4s;
+    cursor:text;
+}
+.input-field:focus{
+    box-shadow: 0 0 8px 2px #CCDDC5;
+    border: none;
+}
+.login-title{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 95px;
+    margin-bottom: 62px;
+}
+.login-button{
+    cursor: pointer;
+    padding: 16px;
+    width: 201px;
+    height: 60px;
+    border: none;
+    background: #609740;
+    border-radius: 50px;
+    transition-duration: 0.2s;
+    transition-property: scale;
+}
+.login-button:hover{
+    scale: 1.05;
+   
+}
+.remember-me{
+    margin-top: 33px;
+    align-self: flex-start;
+    display: flex;
+}
+.remember-me span{
+    margin-left: 9px;
+    font-size: 14px;
+    color: #CCDDC5;
+}
+.remember-me input{
+    margin-left: 75px;
+    transition: scale 0.3s ease;
+    cursor: pointer;
+}
+.remember-me input:hover{
+    scale: 1.5;
+}
+
+.filed-text{
+    color: #CCDDC5;
+    font-size: 14px;
+    align-self: flex-start;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    margin-top: 36px;
+}
+.id-pw-find{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #ADC7A1;
+    transition: font-size 0.3s ease;
+}
+.id-pw-find:hover{
+    font-size: 15px
+}
+br{
+    user-select: none;
+}
